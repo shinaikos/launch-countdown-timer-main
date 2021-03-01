@@ -1,0 +1,84 @@
+/* variaveis de cores */
+
+:root {
+    --grayishBlue: hsl(237, 18%, 59%);
+    --softRed: hsl(345, 95%, 68%);
+    /*Neutral cores*/
+    --white: hsl(0, 0%, 100%);
+    --darkDesaturated: hsl(236, 21%, 26%);
+    --veryDarkBlue: hsl(235, 16%, 14%);
+    --veryDark: hsl(234, 17%, 12%);
+}
+
+
+/* normalize */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+header {
+    height: 25vh;
+}
+
+.launch {
+    height: 35vh;
+}
+
+.social {
+    height: 30vh;
+    background-image: url("/images/pattern-hills.svg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: url("/images/bg-stars.svg");
+    min-height: 100vh;
+    background-color: var(--veryDark);
+}
+
+#title {
+    color: var(--white);
+    font-size: 32px;
+    text-align: center;
+}
+
+.launchItem {
+    margin: 16px;
+}
+
+.launchItem p {
+    color: var(--grayishBlue);
+    text-transform: uppercase;
+}
+
+
+/*classes gerais*/
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+
+/* footer frontendmentor*/
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
