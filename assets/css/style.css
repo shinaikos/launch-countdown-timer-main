@@ -21,13 +21,33 @@
     font-family: 'Red Hat Text', sans-serif;
 }
 
-header {
-    height: 25vh;
+body {
+    background-image: url("/images/bg-stars.svg");
+    min-height: 100vh;
+    background-color: var(--veryDark);
 }
 
-.launch {
-    height: 35vh;
+header {
+    height: 30vh;
+    padding-top: 10vh;
 }
+
+.container {
+    max-width: 320px;
+}
+
+
+/* Timer */
+
+.launchTime {
+    width: 70px;
+    height: 70px;
+    background-color: var(--darkDesaturated);
+    margin-bottom: 30px;
+}
+
+
+/* social div */
 
 .social {
     height: 30vh;
@@ -37,10 +57,8 @@ header {
     background-repeat: no-repeat;
 }
 
-body {
-    background-image: url("/images/bg-stars.svg");
-    min-height: 100vh;
-    background-color: var(--veryDark);
+.img {
+    margin: 0px 24px;
 }
 
 #title {
@@ -49,13 +67,29 @@ body {
     text-align: center;
 }
 
-.launchItem {
-    margin: 16px;
+
+/* launch div */
+
+.launch {
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 768px;
 }
 
 .launchItem p {
     color: var(--grayishBlue);
     text-transform: uppercase;
+}
+
+.launchTime {
+    text-align: center;
+    font-size: 46px;
+    color: var(--softRed);
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 4px 4px 12px black;
 }
 
 
