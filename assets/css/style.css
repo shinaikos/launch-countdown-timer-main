@@ -53,8 +53,8 @@ header {
     height: 30vh;
     background-image: url("/images/pattern-hills.svg");
     width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: cover;
+    background-repeat: repeat;
 }
 
 .img {
